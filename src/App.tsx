@@ -2326,7 +2326,8 @@ export default function App() {
           )}
 
           {step === 5 && results && (
-          )}
+  <ResultsDashboard results={results} />
+)}
         </AnimatePresence>
 
         <footer className="mt-20 pt-10 border-t border-white/5 text-center">
